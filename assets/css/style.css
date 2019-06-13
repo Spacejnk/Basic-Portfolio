@@ -1,217 +1,197 @@
 /* Styling for all pages */
-
 body {
   /* background image */
   background: url("../floor-tile.png") repeat 0 0;
-  
 }
 
 nav li::after {
-    content: "|";
-    padding-right: 5px;
-    padding-left: 5px;
+  content: "|";
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .wrapper {
-    max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #cccccc;
-
-    
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  overflow: scroll;
 }
 
 .wlc {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-top: 130px;
-    font-size: 40px;
-    padding-left: 10px;
-    background-color: #4aaaa5;
-    float: left;
-    padding: 25px;
-    border-radius: 5px;
-    color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-top: 10px;
+  font-size: 40px;
+  padding-left: 10px;
+  background-color: #4aaaa5;
+  float: left;
+  padding: 25px;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
-
 h3, .contact, .portfolio {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding-top: 10px;
-    margin-top: 250px;
-    margin-left: -450px;
-    font-size: 30px;
-    float: left;
-    color: #4aaaa5;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-top: 10px;
+  margin-top: 150px;
+  margin-left: -450px;
+  font-size: 30px;
+  float: left;
+  color: #4aaaa5;
+}
+
+.portfolio {
+  margin-top: 150px;
 }
 
 nav ul li a {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-decoration: none;
-    margin: 10px;
-    color:#cccccc;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  color: #cccccc;
 }
 
-nav ul li  {
-    list-style: none;
-    float: right;
-    margin-top: 140px;
-    }
+nav ul li {
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+}
 
 .willy {
-    width: 140px;
-    height: 160px;
-    float: left;
-    padding-left: -300px;
-    padding: 20px;
-    margin-top: -2px;
-    margin-left: -10px;
-    
+  width: 140px;
+  height: 160px;
+  float: left;
+  padding-left: -300px;
+  padding: 20px;
+  margin-top: -2px;
+  margin-left: -10px;
 }
-
-
 
 hr {
-    width: 100%;
+  width: 100%;
 }
 
-.about-me {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#888383;
-    padding-left: 15px;
-    margin-left: 160px;
+.about-me, .lorem {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #888383;
+  padding-left: 15px;
+  margin-left: 160px;
 }
 
+/* .lorem {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  padding-left: 10px;
+} */
 footer {
-    clear: both;
-    text-align: center;
-    background-color: #666666;
-    height: 40px;
-    max-width: 100%;
-}
-
-.lorem {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding-left: 10px;
+  height: 40px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  text-align: center;
 }
 
 h6 {
-    padding-top: 12px;
-    color: #ffffff;
+  margin-top: 10px;
+  color: #ffffff;
 }
 
 /* Portfolio */
-  .image1, .image2, .image3, .image4, .image5 {
-    position: relative;
-    float: left;
-    margin: 10px;
-  
-  }
-  
-  
-  .im1, .im2, .im3, .im4, .im5 {
-    position: absolute;
-    color: white;
-    margin-top: 100px;
-    background-color: #4aaaa5;
-    font-size: 15px;
-    text-align: center;
-    padding: 1px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 20%
-  }
+.image1, .image2, .image3, .image4, .image5 {
+  position: relative;
+  float: left;
+  margin: 10px;
+  margin-top: 10px;
+}
 
-  
+.im1, .im2, .im3, .im4, .im5 {
+  position: absolute;
+  color: white;
+  margin-top: 100px;
+  background-color: #4aaaa5;
+  font-size: 15px;
+  text-align: center;
+  padding: 1px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 20%
+}
 
-
-
-
- 
-
- /* Contact form */
-
+/* Contact form */
 form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 800px;
-  
-    /* To see the limits of the form */
-    padding: 1em;
-    margin-left: -17px;
-
-    max-width: 100%;
-    
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 800px;
+  /* To see the limits of the form */
+  padding: 1em;
+  margin-left: -17px;
+  max-width: 100%;
 }
 
-  div + div {
-    margin-top: 1em;
-  }
+div+div {
+  margin-top: 1em;
+}
 
-  label {
-      /* To make sure that all label have the same size and are properly align*/
-      display: block;
-      height: 35px;
-      font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  }
+label {
+  /* To make sure that all label have the same size and are properly align*/
+  display: block;
+  height: 35px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
-  input, textarea {
-    /* To make sure that all text field have the same font settings
+input, textarea {
+  /* To make sure that all text field have the same font settings
        By default, textarea are set with a monospace font */
-    font: 1em sans-serif;
-  
-    /* To give the same size to all text field */
-    width: 100%;
-    height: 50px;
-  
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-  
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-  }
-
-  input:focus, textarea:focus {
-    /* To give a little highligh on active elements */
-    border-color: #000;
-  }
-
-  textarea {
-    /* To properly align multiline text field with their label */
-    vertical-align: top;
-  
-    /* To give enough room to type some text */
-    height: 5em;
-  
-    /* To allow users to resize any textarea vertically
-       It works only on Chrome, Firefox and Safari */
-    resize: vertical;
-  }
-   
-  #msg {
-    /*  Extra height for message box*/
-    height: 180px;
+  font: 1em sans-serif;
+  /* To give the same size to all text field */
+  width: 100%;
+  height: 50px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
 }
 
- .button {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 0px; /* same size as the label elements */
-    
-  }
-  
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: #000;
+}
 
- button {
-       /* This extra magin represent the same space as the space between
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+  /* To give enough room to type some text */
+  height: 5em;
+  /* To allow users to resize any textarea vertically
+       It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+#msg {
+  /*  Extra height for message box*/
+  height: 180px;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 0px;
+  /* same size as the label elements */
+}
+
+button {
+  /* This extra magin represent the same space as the space between
      the labels and their text fields */
-     margin-left: .2em;
-     font-size: .5em;
-     background-color: #4aaaa5;
-     height: 30px;
-     width: 70px;
-     color: #ffffff;
- }
-
- 
+  margin-left: .2em;
+  font-size: .5em;
+  background-color: #4aaaa5;
+  height: 30px;
+  width: 70px;
+  color: #ffffff;
+}
